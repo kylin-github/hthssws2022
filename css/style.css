@@ -1,0 +1,150 @@
+* {
+    font-family: 'Helvetica Neue', sans-serif;
+    letter-spacing: 1.5px;
+    color: #EEF2FF;
+}
+
+body, html {
+    height: 100%;
+    background-color: #2f005a ;
+}
+
+figcaption {
+    text-align: center;
+    margin: 3em;
+}
+
+h1 {
+    font-family: 'Helvetica Neue', serif;
+    font-weight: 700;
+    font-size: 100px;
+    text-align: center;
+}
+
+h2, h3 {
+    font-family: 'Helvetica Neue', serif;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h3 {
+    font-family: 'Helvetica Neue', serif;
+    font-weight: 100;
+    font-size: 35px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;  
+}
+
+
+#catchphrase {
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 40px;
+}
+
+
+#abt-button {
+    background-color:#5a1bc0;
+}
+
+#abt-text {
+    font-family: 'IBM Plex Sans';
+    color: white;
+}
+
+h4 {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 400; 
+    margin-left: 5%; 
+    margin-right: 5%
+}
+
+p {
+    font-size: 30px;
+    line-height: 1;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    font-weight: 20px;
+    letter-spacing: 1.5px;
+}
+
+ul {
+    margin-left: 150px
+}
+
+ol {
+    margin-left: 150px
+}
+
+p, table {
+    font-family: 'IBM Plex Sans', sans-serif; 
+    font-weight: 200
+}
+.brand-logo nav-logo {
+    font-weight: 900
+}
+
+table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: opacity .3 .25s ease-out;
+    will-change: opacity;
+    border: 3px solid slategrey;
+    box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
+}
+
+table.is-visible {
+    opacity: 1;
+}
+
+table thead {
+    font-family: 'Lexend';
+    font-weight: 500;
+}
+
+th, td {
+    text-align: center;
+}
+
+.carousel {
+    box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
+    height: 500px;
+}
+
+.carousel-item {
+    /* Increase size of carousel */
+    width: 350px !important;
+    height: 350px !important;
+    display: block;
+    margin-top: -75px; /* Keep carousel centered in container */
+    border-radius: .25em;
+    box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
+}
+
+.nav {
+    background-color: #4e15d3;
+    font-family: 'Playfair Display SC';
+}
+
+.event-details {
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 100px;
+    box-shadow: 1em 1em 2em .25em rgba(255, 255, 255, 0.2);
+    background-image: linear-gradient(rgba(187, 87, 245, 0.192), rgba(160, 77, 255, 0.5));
+}
+
+.video-container {
+    position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
